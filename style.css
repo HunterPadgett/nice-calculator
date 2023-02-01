@@ -1,0 +1,138 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+ box-sizing: border-box;
+}
+
+body {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+ background-color: #0f0f0f;
+}
+table {
+ height: 70%;
+}
+
+td {
+ /* border: 1px solid rgb(240, 235, 235); */
+ background-color: rgb(99, 94, 94);
+ width: 25%;
+ height: 50px;
+ text-align: center;
+ vertical-align: middle;
+ 
+}
+#display {
+ width: 100%;
+ height: 100%;
+ text-align: right;
+ font-size: 3rem;
+}
+button {
+ cursor: pointer;
+ width: 100%;
+ height: 100%;
+ background-color: rgb(160, 127, 187);
+ font-size: 1.7rem;
+ /* font-weight: bold; */
+}
+button:hover {
+ background-color: rgb(153, 108, 190);
+}
+button:active {
+ background-color: rgb(144, 85, 192);
+ scale: 1.05;
+}
+
+#uselessBtn {
+ background-color: rgb(99, 94, 94);
+}
+
+@media only screen and (max-width: 1300px) {
+ table {
+  height: 80%;
+  width: 70%;
+ }
+
+ td {
+  /* border: 1px solid rgb(240, 235, 235); */
+  background-color: rgb(99, 94, 94);
+  width: 25%;
+  height: 30px;
+  text-align: center;
+  vertical-align: middle;
+ }
+
+ #display {
+  width: 100%;
+  height: 100%;
+  text-align: right;
+  font-size: 5rem;
+ }
+
+ button {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(160, 127, 187);
+  font-size: 3rem;
+  /* font-weight: 500; */
+ }
+
+ button:active {
+  background-color: rgb(153, 99, 197);
+  scale: 0.9;
+ }
+
+ #uselessBtn {
+  background-color: rgb(99, 94, 94);
+ }
+}
+
+@media only screen and (max-width: 800px) {
+ table {
+  height: 90%;
+  width: 90%;
+ }
+
+ td {
+  /* border: 1px solid rgb(240, 235, 235); */
+  background-color: rgb(99, 97, 94);
+  width: 25%;
+  height: 30px;
+  text-align: center;
+  vertical-align: middle;
+ }
+
+ #display {
+  width: 100%;
+  height: 100%;
+  text-align: right;
+  font-size: 2rem;
+  padding: 0.1em;
+ }
+
+ button {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(160, 127, 187);
+  font-size: 1.5rem;
+  font-weight: 500;
+  /* border-radius: 5px; */
+ }
+
+ button:active {
+  background-color: rgb(153, 99, 197);
+  scale: 0.9;
+ }
+
+ #uselessBtn {
+  background-color: rgb(99, 94, 94);
+ }
+}
